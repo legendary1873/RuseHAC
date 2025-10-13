@@ -1,2 +1,2 @@
 # RuseHAC
-JOIN HISTORY CLUB LOOK AT THIS (TO BE) COOL WEBSITE
+> Author: Jiayu Hu (<jiayu.hu1@education.nsw.gov.au>)
