@@ -2,7 +2,7 @@
 
 This guide gets you from zero to a running RuseHAC platform in 10 minutes.
 
-## 🚀 Super Quick Start (5 minutes)
+## Super Quick Start (5 minutes)
 
 ### Prerequisites
 - Python 3.9+ and pip
@@ -55,7 +55,7 @@ Expected: Dashboard with attendance stats, announcements, and user profile
 
 ---
 
-## 📋 Detailed Setup Instructions
+## Detailed Setup Instructions
 
 ### Backend Setup (Detailed)
 
@@ -152,16 +152,16 @@ Expected output:
 ║       RuseHAC Frontend Server        ║
 ╚══════════════════════════════════════╝
 
-🚀 Server running at http://localhost:3000
-📡 API proxied to http://localhost:8000
-🔧 Environment: development
+Server running at http://localhost:3000
+API proxied to http://localhost:8000
+Environment: development
 ```
 
 **Frontend is now running!** ✅
 
 ---
 
-## 🎯 What to Test
+## What to Test
 
 ### 1. Dashboard
 1. Open http://localhost:3000
@@ -208,7 +208,7 @@ Expected output:
 
 ---
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Backend Won't Start
 
@@ -267,7 +267,7 @@ python manage.py shell < test_api.py
 
 ---
 
-## 📊 Architecture Overview
+## Architecture Overview
 
 ```
 User Browser (http://localhost:3000)
@@ -290,7 +290,7 @@ SQLite Database (database.db)
 
 ---
 
-## 🎓 Learning Resources
+## Learning Resources
 
 ### Backend (Django)
 - View code: `/Users/jiayu/RuseHAC/backend/accounts/views_new.py`
@@ -312,7 +312,7 @@ SQLite Database (database.db)
 
 ---
 
-## 🚢 Deployment
+## Deployment
 
 ### Simple Deployment (One Machine)
 
@@ -353,7 +353,7 @@ docker run -p 3000:3000 \
 
 ---
 
-## 🤔 Common Questions
+## Common Questions
 
 **Q: Can I run frontend and backend on the same machine?**
 A: Yes! Default setup does this. Port 3000 (frontend) and 8000 (backend).
@@ -375,7 +375,7 @@ A: Yes! Add to `public/js/` and import in `app_v2.jsx`.
 
 ---
 
-## 📞 Need Help?
+## Need Help?
 
 1. Check this guide first
 2. Check `FRONTEND_TESTING.md` for testing help
@@ -385,7 +385,7 @@ A: Yes! Add to `public/js/` and import in `app_v2.jsx`.
 
 ---
 
-## ✅ Success Checklist
+## Success Checklist
 
 - [ ] Backend running at http://localhost:8000
 - [ ] Frontend running at http://localhost:3000
@@ -396,11 +396,11 @@ A: Yes! Add to `public/js/` and import in `app_v2.jsx`.
 - [ ] No errors in browser console (F12)
 - [ ] No errors in terminal
 
-**All checked? Congratulations! 🎉 RuseHAC is running!**
+**All checked? Congratulations! RuseHAC is running!**
 
 ---
 
-## 🔗 Next Steps
+## Next Steps
 
 1. **Customize**: Edit styles, add your logo
 2. **Populate**: Add real users and data
@@ -434,7 +434,7 @@ Frontend runs at: **http://localhost:3000**
 
 ---
 
-## ✅ Verify Everything Works
+## Verify Everything Works
 
 1. Open **http://localhost:8000/admin** in browser
    - Log in with admin credentials you just created
@@ -451,7 +451,7 @@ Frontend runs at: **http://localhost:3000**
 
 ---
 
-## 📝 Next Steps
+## Next Steps
 
 - [ ] Read the full `README.md` to understand features
 - [ ] Explore the Django models in `backend/accounts/models.py`
@@ -461,9 +461,9 @@ Frontend runs at: **http://localhost:3000**
 
 ---
 
-## 🆘 Common Issues
+## Common Issues
 
-### ❌ "django not found"
+### "django not found"
 ```bash
 # Make sure venv is activated
 source venv/bin/activate
@@ -471,10 +471,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### ❌ "npm: command not found"
+### "npm: command not found"
 - Install Node.js from https://nodejs.org/
 
-### ❌ "port 8000 already in use"
+### "port 8000 already in use"
 ```bash
 # Kill the existing process on port 8000
 lsof -ti:8000 | xargs kill -9
@@ -483,7 +483,7 @@ lsof -ti:8000 | xargs kill -9
 python manage.py runserver 8001
 ```
 
-### ❌ Database locked (SQLite issue)
+### Database locked (SQLite issue)
 ```bash
 # Delete the database and recreate it
 rm db.sqlite3
@@ -492,7 +492,7 @@ python manage.py migrate
 
 ---
 
-## 🎯 Architecture Overview
+## Architecture Overview
 
 ```
 Frontend (React)               Backend (Django)
@@ -505,7 +505,7 @@ Frontend (React)               Backend (Django)
 
 ---
 
-## 💡 Key Commands
+## Key Commands
 
 ```bash
 # Run migrations after model changes
@@ -533,7 +533,7 @@ python manage.py flush
 
 ---
 
-## 📚 File Structure You'll Edit
+## File Structure You'll Edit
 
 ```
 RuseHAC/
@@ -550,7 +550,6 @@ RuseHAC/
 
 ---
 
-## 🚢 Ready to Code?
+## Ready to Code?
 
 Start with **Task 2: Design data models and API contract** from the main README.
-Good luck! 🎉

@@ -1,4 +1,4 @@
-# 🎬 Getting Started - Run the Code
+# Getting Started - Run the Code
 
 ## Step 1: Install Dependencies
 
@@ -229,7 +229,7 @@ See `FEATURES_IMPLEMENTED.md` for complete API documentation.
 
 ---
 
-## 🎯 Common Commands
+## Common Commands
 
 ```bash
 # Run tests
@@ -253,5 +253,3 @@ python manage.py dumpdata > data.json
 # Load data
 python manage.py loaddata data.json
 ```
-
-Good luck! 🚀

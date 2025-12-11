@@ -1,4 +1,4 @@
-# 🎉 RuseHAC Scaffold Summary
+# RuseHAC Scaffold Summary
 
 ## ✅ Completed: Task 1 - Project Setup & Scaffolding
 
@@ -6,7 +6,7 @@ The project has been fully scaffolded with Django 4.2 + Django REST Framework + 
 
 ---
 
-## 📁 Backend Structure Created
+## Backend Structure Created
 
 ```
 backend/
@@ -69,7 +69,7 @@ backend/
 
 ---
 
-## 📦 Frontend Structure
+## Frontend Structure
 
 ```
 public/
@@ -82,7 +82,7 @@ public/
 
 ---
 
-## 📋 Key Models Defined
+## Key Models Defined
 
 ### Accounts
 - **CustomUser**: Extended Django User with year_group, role, bio, is_banned
@@ -117,7 +117,7 @@ public/
 
 ---
 
-## 🔌 API Endpoints Ready to Build
+## API Endpoints Ready to Build
 
 All endpoints are registered and ready for implementation:
 
@@ -142,7 +142,7 @@ All endpoints are registered and ready for implementation:
 
 ---
 
-## 📝 Configuration Files Created
+## Configuration Files Created
 
 - **`requirements.txt`**: Updated with Django, DRF, Channels, Celery, etc.
 - **`.env.example`**: Environment variables template
@@ -153,7 +153,7 @@ All endpoints are registered and ready for implementation:
 
 ---
 
-## 🚀 To Get Started
+## To Get Started
 
 ### Option A: Quick Start (Recommended)
 ```bash
@@ -177,7 +177,7 @@ npm start
 
 ---
 
-## 📊 What's Already Implemented
+## What's Already Implemented
 
 ✅ All models defined with relationships  
 ✅ All Django apps configured  
@@ -190,7 +190,7 @@ npm start
 
 ---
 
-## 🔜 Next Steps (Task 2+)
+## Next Steps (Task 2+)
 
 Now you can:
 
@@ -203,7 +203,7 @@ Now you can:
 
 ---
 
-## 💡 Key Technologies Ready to Use
+## Key Technologies Ready to Use
 
 - **JWT Authentication**: `djangorestframework-simplejwt` installed
 - **WebSockets**: Django Channels configured for real-time features
@@ -214,7 +214,7 @@ Now you can:
 
 ---
 
-## ✨ What This Scaffold Gives You
+## What This Scaffold Gives You
 
 1. **Production-ready structure** - Organized Django apps following best practices
 2. **Type-safe API** - DRF serializers for validation
@@ -227,11 +227,9 @@ Now you can:
 
 Now proceed to **Task 2: Design data models and API contract** to flesh out the API endpoints and serializers!
 
-## 🎯 Estimated Time to First Running Feature
+## Estimated Time to First Running Feature
 - Scaffold: ✅ Done
 - Models: 1-2 hours
 - API Endpoints: 2-3 hours  
 - Frontend: 4-6 hours
 - Total: ~10 hours to MVP
-
-Good luck! 🚀

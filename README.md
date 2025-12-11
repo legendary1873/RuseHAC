@@ -334,6 +334,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 👥 Support
+## Support
 
 For issues, questions, or suggestions, please open an issue on GitHub or contact the author.

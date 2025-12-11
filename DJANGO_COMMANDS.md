@@ -1,8 +1,8 @@
-# 🛠️ Django Commands Reference
+# Django Commands Reference
 
 Quick reference for common Django commands used in RuseHAC development.
 
-## 🚀 Server & Setup
+## Server & Setup
 
 ```bash
 # Run development server
@@ -27,7 +27,7 @@ python manage.py createsuperuser
 python manage.py shell
 ```
 
-## 🗄️ Database
+## Database
 
 ```bash
 # Apply all pending migrations
@@ -52,7 +52,7 @@ python manage.py flush
 python manage.py dbshell
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -90,7 +90,7 @@ python manage.py shell
 # CustomUser.objects.create_user(email='test@example.com', password='pass123', year_group='Y10')
 ```
 
-## 🔍 Debugging
+## Debugging
 
 ```bash
 # Run with debugging server (better error messages)
@@ -106,7 +106,7 @@ python manage.py show_urls
 python manage.py inspectdb table_name
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ```bash
 # List installed packages
@@ -137,7 +137,7 @@ user.save()
 CustomUser.objects.filter(role='member').count()
 ```
 
-## 🔐 Security
+## Security
 
 ```bash
 # Generate new SECRET_KEY
@@ -150,7 +150,7 @@ python manage.py check --deploy
 python manage.py collectstatic
 ```
 
-## 📝 Useful Combinations
+## Useful Combinations
 
 ```bash
 # Create migrations, migrate, and create superuser
@@ -168,7 +168,7 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 **Models not showing in admin:**
 ```bash
@@ -207,7 +207,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📚 More Info
+## More Info
 
 Full Django documentation: https://docs.djangoproject.com/
 Django REST Framework: https://www.django-rest-framework.org/

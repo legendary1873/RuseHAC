@@ -1,6 +1,6 @@
 # RuseHAC Complete System Integration Guide
 
-## 🎯 System Overview
+## System Overview
 
 RuseHAC is a complete web platform consisting of:
 
@@ -11,7 +11,7 @@ RuseHAC is a complete web platform consisting of:
 
 This guide shows how all components work together.
 
-## 📊 Complete Architecture
+## Complete Architecture
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
@@ -71,7 +71,7 @@ This guide shows how all components work together.
 └────────────────────────────────────────────────────────────────┘
 ```
 
-## 🔄 Request Flow Examples
+## Request Flow Examples
 
 ### Example 1: User Login
 
@@ -269,7 +269,7 @@ This guide shows how all components work together.
    └─ Can continue chatting
 ```
 
-## 🔐 Security & Authentication Flow
+## Security & Authentication Flow
 
 ```
 LOGIN PROCESS
@@ -305,7 +305,7 @@ LOGOUT
 └─ Frontend redirects to login
 ```
 
-## 🗄️ Database Relationships
+## Database Relationships
 
 ```
 CustomUser (Users)
@@ -434,7 +434,7 @@ ExecApplication
 └─ applied_at
 ```
 
-## 🚀 API Request/Response Examples
+## API Request/Response Examples
 
 ### Authentication - Login
 ```http
@@ -536,7 +536,7 @@ Response 201:
 }
 ```
 
-## 🔍 Monitoring & Debugging
+## Monitoring & Debugging
 
 ### Check Backend Logs
 ```bash
@@ -568,7 +568,7 @@ python manage.py runserver
 6. Red = disconnected/errored
 ```
 
-## 🧪 Testing Locally
+## Testing Locally
 
 ### Test All Components Together
 
@@ -614,7 +614,7 @@ curl -X POST http://localhost:8000/api/ballots/votes/cast_vote/ \
   -d '{"ballot_id": 1, "option_id": 1}'
 ```
 
-## 🚀 Deployment Checklist
+## Deployment Checklist
 
 - [ ] Backend
   - [ ] PostgreSQL configured

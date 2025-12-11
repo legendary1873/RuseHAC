@@ -1,4 +1,4 @@
-# 📂 RuseHAC Project Structure
+# RuseHAC Project Structure
 
 ```
 RuseHAC/
@@ -109,7 +109,7 @@ RuseHAC/
 
 ---
 
-## 🎯 Key Files to Understand
+## Key Files to Understand
 
 ### Backend (Django)
 
@@ -164,7 +164,7 @@ RuseHAC/
 
 ---
 
-## 🔄 Request Flow
+## Request Flow
 
 ```
 Browser → React (port 3000)
@@ -188,7 +188,7 @@ Browser → React (port 3000)
 
 ---
 
-## 📋 What Each App Does
+## What Each App Does
 
 | App | Purpose | Key Models | API Route |
 |-----|---------|-----------|-----------|
@@ -202,7 +202,7 @@ Browser → React (port 3000)
 
 ---
 
-## 🚀 First Steps After Scaffolding
+## First Steps After Scaffolding
 
 1. **Read QUICKSTART.md** - Get the server running
 2. **Create a superuser** - `python manage.py createsuperuser`
@@ -213,7 +213,7 @@ Browser → React (port 3000)
 
 ---
 
-## 💡 Important Notes
+## Important Notes
 
 - **⭐** marks the most important files to understand
 - **Color coding**: 🔧 (code), 📄 (docs), 🎨 (frontend), ⚙️ (config)
@@ -223,7 +223,7 @@ Browser → React (port 3000)
 
 ---
 
-## 🔜 Next: Build the API (Task 2)
+## Next: Build the API (Task 2)
 
 Once you understand this structure, you're ready to:
 1. Add serializers for all models
@@ -231,5 +231,3 @@ Once you understand this structure, you're ready to:
 3. Add authentication/permissions
 4. Build React components
 5. Test API endpoints
-
-Good luck! 🚀
