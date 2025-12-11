@@ -1,0 +1,8 @@
+"""Apps configuration for ballots."""
+
+from django.apps import AppConfig
+
+
+class BallotsConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "ballots"
