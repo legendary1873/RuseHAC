@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RuseHAC - History Club</title>
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>🏛️</text></svg>">
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- React Library -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  
+  <!-- Babel Standalone for JSX -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  
+  <!-- Axios -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+  <!-- App Script -->
+  <script type="text/babel" src="/js/app_v2.jsx"></script>
+
+  <!-- Render App -->
+  <script type="text/babel">
+    const { AuthProvider } = window.app || {};
+    
+    if (AuthProvider) {
+      const root = ReactDOM.createRoot(document.getElementById('root'));
+      root.render(
+        <AuthProvider>
+          <App />
+        </AuthProvider>
+      );
+    }
+  </script>
+</body>
+</html>
