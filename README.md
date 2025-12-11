@@ -1,44 +1,44 @@
-# RuseHAC - School History Club Website
+# RuseHAC - JRAHS History Appreciation Club Website
 
-A comprehensive web platform for the History Club featuring member management, voting systems, resource sharing, attendance tracking, points/shop system, and real-time chat.
+A comprehensive web platform for Ruse History Appreciation Club.
 
 **Author:** Jiayu Hu (<jiayu.hu1@education.nsw.gov.au>)
 
 ---
 
-## 📋 Features
+## Features
 
 ### For All Members
-- 🔐 **User Accounts**: Sign up with email, name, and year group. Email-based gravatar profile pictures.
-- 👤 **Profiles**: View and customize your profile with bio and year group. Search and view other members' profiles.
-- 📢 **Announcements**: Stay updated with pinned announcements from execs.
-- 🗳️ **Voting**: Participate in ballots for new topics, exec positions, and club activities.
-- 🛍️ **Points & Shop**: Earn points from attendance and special activities. Claim stickers and merch from the shop.
-- 📚 **Resource Drive**: Access shared notes, class materials, textbooks, past papers, and exam questions.
-- 📝 **Submissions**: Submit history essays for feedback from execs and peers.
-- 💬 **Group Chat**: Real-time messaging in the main club chat (Discord-like experience).
-- 📊 **Attendance Tracker**: View your term attendance percentage and track progress toward 70% attendance goal.
-- 🔔 **Notifications**: In-app feed + email notifications (customizable in settings).
-- ⚙️ **Settings**: Customize notifications and other preferences.
+- **User Accounts**: Sign up with email, name, and year group. Email-based gravatar profile pictures.
+- **Profiles**: View and customize your profile with bio and year group. Search and view other members' profiles.
+- **Announcements**: Stay updated with pinned announcements from execs.
+- **Voting**: Participate in ballots for new topics, exec positions, and club activities.
+- **Points & Shop**: Earn points from attendance and special activities. Claim stickers and other merch from the shop.
+- **Resource Drive**: Access shared notes, class materials, textbooks, past papers, and exam questions.
+- **Submissions**: Submit history essays for feedback from execs and peers.
+- **Group Chat**: Real-time messaging in the main club chat (Discord-like experience).
+- **Attendance Tracker**: View your term attendance percentage and track progress toward 70% attendance goal.
+- **Notifications**: In-app feed + email notifications (customizable in settings).
+- **Settings**: Customize notifications and other preferences.
 
-### For Executives
-- ✍️ **All member features** plus:
-- 📝 **Create Announcements**: Post important updates and pin them.
-- 🗳️ **Create Ballots**: Set up voting for topics, exec positions, and activities with custom closing dates.
-- 🏆 **Manage Attendance**: Mark members as present at meetings and view attendance analytics.
-- ⭐ **Award Points**: Give members points for participation and achievements.
-- 🚫 **Moderation**: Temporarily ban members for misuse; manage user behavior.
-- 💼 **Admin Chat**: Private exec-only chat for planning and discussions.
-- 🔍 **Manage Resources**: Approve user submissions to the resource drive.
-- 👥 **Manage Members**: View all members, roles, and applications.
+### For Execs
+- **All member features**, as well as:
+- **Create Announcements**: Post important updates and pin them.
+- **Create Ballots**: Set up voting for topics, exec positions, and activities with custom closing dates.
+- **Manage Attendance**: Mark members as present at meetings and view attendance analytics.
+- **Award Points**: Give members points for participation and achievements.
+- **Moderation**: Temporarily ban members for misuse; manage user behavior.
+- **Admin Chat**: Private exec-only chat for planning and discussions.
+- **Manage Resources**: Approve user submissions to the resource drive.
+- **Manage Members**: View all members, roles, and applications.
 
 ### For Admins
-- 🔑 Full control over settings, roles, and site configuration.
-- 🛠️ Django admin panel for database management.
+- Full control over settings, roles, and site configuration.
+- Django admin panel for database management.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Django 4.2 + Django REST Framework
 - **Frontend**: React (served from `/public/js/`)
@@ -50,7 +50,7 @@ A comprehensive web platform for the History Club featuring member management, v
 
 ---
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.10+
@@ -123,7 +123,7 @@ A comprehensive web platform for the History Club featuring member management, v
 
 ---
 
-## 📊 Project Structure
+## Project Structure
 
 ```
 RuseHAC/
@@ -156,7 +156,7 @@ RuseHAC/
 
 ---
 
-## 🔌 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/accounts/users/register/` - Register new user
@@ -209,7 +209,7 @@ RuseHAC/
 
 ---
 
-## 🔐 User Roles & Permissions
+## User Roles & Permissions
 
 | Feature | Member | Exec | Admin |
 |---------|--------|------|-------|
@@ -227,7 +227,7 @@ RuseHAC/
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Using Heroku
 ```bash
@@ -243,7 +243,7 @@ See `docs/deployment.md` for detailed instructions.
 
 ---
 
-## 📝 Database Schema (Key Models)
+## Database Schema (Key Models)
 
 ### CustomUser
 ```python
@@ -285,7 +285,7 @@ SubmissionFeedback: submission, given_by, feedback
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Run unit and integration tests:
 ```bash
@@ -302,7 +302,7 @@ coverage report
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Issue: `ModuleNotFoundError: No module named 'django'`**
 - Solution: Activate your virtual environment and run `pip install -r requirements.txt`
@@ -318,7 +318,7 @@ coverage report
 
 ---
 
-## 📧 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/awesome-feature`
@@ -328,7 +328,7 @@ coverage report
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -337,5 +337,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Support
 
 For issues, questions, or suggestions, please open an issue on GitHub or contact the author.
-
-**Happy coding! 🎉**
